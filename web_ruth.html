@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOJEÑOS - Frutas y Verduras</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4fdf4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #388e3c;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1606788075761-9be8050a9df0');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h3 {
+            color: #2e7d32;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li::before {
+            content: '🍃 ';
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SOJEÑOS</h1>
+        <p>Frutas y Verduras de calidad – Venta mayorista, minorista y exportación</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#exportaciones">Exportaciones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div id="inicio" class="hero">
+        <h2>Frescura natural directo del productor</h2>
+    </div>
+
+    <section id="nosotros">
+        <h3>Nosotros</h3>
+        <p>SOJEÑOS es un emprendimiento argentino dedicado a ofrecer frutas y verduras frescas con los más altos estándares de calidad.</p>
+        <p>Nuestro equipo está conformado por:</p>
+        <ul>
+            <li>Lautaro Ortiz</li>
+            <li>Ríos Iván</li>
+            <li>Pedro Dalessandro</li>
+            <li>Rodrigo Carrillo</li>
+        </ul>
+    </section>
+
+    <section id="productos">
+        <h3>Productos</h3>
+        <p>Ofrecemos una amplia variedad de frutas y verduras frescas:</p>
+        <ul>
+            <li>Tomates, lechugas, zanahorias</li>
+            <li>Manzanas, naranjas, peras</li>
+            <li>Productos de estación y orgánicos</li>
+            <li>Pedidos personalizados para negocios</li>
+        </ul>
+    </section>
+
+    <section id="exportaciones">
+        <h3>Exportaciones</h3>
+        <p>Contamos con logística para exportar productos frescos a distintos mercados internacionales.</p>
+        <ul>
+            <li>Empaque especializado</li>
+            <li>Certificados sanitarios y calidad</li>
+            <li>Distribución a países de América y Europa</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <p>¿Querés comunicarte con nosotros? Usá uno de los siguientes medios:</p>
+        <ul>
+            <li>📞 Teléfono: +54 9 11 1234 5678</li>
+            <li>📧 Email: sojacontactos@gmail.com</li>
+            <li>📍 Dirección: Av. Productores Locales 123, Buenos Aires, Argentina</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2025 SOJEÑOS - Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
